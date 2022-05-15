@@ -89,7 +89,7 @@ a {
 
 #hero {
     object-position: center center;
-    /* width: 100%; */
+    
     flex-grow: 1;
     flex-shrink: 10;
 }
@@ -178,8 +178,7 @@ h1 {
        height: 75px;
        width: 150px;
        /* transform: translateX(160%); */
-       /* margin-left: 200%;  */
-       flex-shrink: 5;
+        flex-shrink: 5;
        
     }
 
@@ -210,6 +209,8 @@ h1 {
        margin-left: 20%;
     }
     .second-picture-text > .btn {
-        margin-right: 10%;
+        /* margin-right: 10%; */
     }
+ 
+   
 }

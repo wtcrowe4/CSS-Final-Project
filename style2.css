@@ -1,0 +1,175 @@
+/* Starting over on CSS in order to use CSS Grid to layout webpage.*/
+
+/* * {
+    border: 1px solid black;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    
+
+}
+
+.nav-wrapper {
+    display: grid;
+    grid-template-columns: 250px 1fr 150px;
+    grid-template-rows: 30px 80px 1fr;
+    font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", sans-serif;
+    font-weight: 400;
+    border: 1px solid black;
+
+}
+
+.top-nav {
+    text-align: end;
+    grid-column: 1 / 5;
+    margin-top: 5px;
+}
+
+#accessibility-link {
+    color: #707070;
+    text-decoration: none;
+    font-size: .75rem;
+    
+}
+
+.logo {
+   
+
+}
+
+#main-logo {
+    padding-left: 25px;
+    padding-top: 18px;
+
+}
+
+.main-nav {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 0;
+    margin-bottom: 10px;
+    align-items: end;
+    font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", sans-serif;
+    line-height: 1.15rem;
+    font-size: 1rem;
+    padding-right: 5px;
+ 
+
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #4C4C4C;
+  
+
+}
+
+a:hover {
+    text-decoration: underline red;
+    color: black;
+}
+
+
+.nav-icons {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: end;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+.nav-icons > li {
+    font-weight: bolder; 
+}
+
+.hero-with-text {
+    height: 900px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#hero {
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-image-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    transform: translate(100px, -500px);
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    
+
+}
+
+h1 {
+    font-family: "Gotham Cond SSm A", "Gotham Cond SSm B", sans-serif;
+    font-size: 40px;
+    letter-spacing: 0;
+    text-shadow: black 1px 1px 1px;
+    margin: 0;
+  
+}
+
+p {
+    font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 0.875rem;
+    max-width: 500px;
+  
+}
+
+.btn {
+    font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", sans-serif; 
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    border-color: red;
+    margin-top: 10px;
+}
+
+.second-picture {
+    height: 900px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#phantom {
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.second-picture-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    
+    transform: translate(50%, -700px);
+    text-align: center;
+    width: 50%;
+    align-items: center;
+}
